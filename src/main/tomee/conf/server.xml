@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Server port="8080" shutdown="SHUTDOWN">
+    <Listener className="org.apache.tomee.catalina.ServerListener"/>
+    <Listener className="org.apache.catalina.security.SecurityListener"/>
+
+    <Service name="Catalina">
+        <Connector port="${http.port}" protocol="HTTP/1.1"/>
+        <Engine name="Catalina" defaultHost="localhost">
+            <Host name="localhost" appBase="webapps"/>
+        </Engine>
+    </Service>
+</Server>
