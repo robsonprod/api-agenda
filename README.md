@@ -5,6 +5,6 @@
 
 * JAVA 12;
 * JAVAEE 8;
-* RESTful API JAX-RS RESTEasy ou framework Jersey;
-* Single Page Application com Angular Framework 7+;
+* RESTful API JAX-RS RESTEasy;
+* Single Page Application com Angular Framework 9;
 * Gerenciador de dependências Maven.
