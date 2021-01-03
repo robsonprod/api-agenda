@@ -8,3 +8,7 @@
 * RESTful API JAX-RS RESTEasy;
 * Single Page Application com Angular Framework 9;
 * Gerenciador de dependências Maven.
+
+run
+
+mvn clean install tomee:run
